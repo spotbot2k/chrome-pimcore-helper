@@ -1,0 +1,16 @@
+ul {
+    padding: 0;
+    margin: 0;
+    min-width: 200px;
+}
+li {
+    list-style-type: none;
+    padding: 2px 4px 12px 6px;
+    border-bottom: 1px solid #eee;
+}
+label {
+    display: inline-block;
+}
+input[type="button"] {
+    margin-top: 12px;
+}

@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="app.css" />
+  </head>
   <body>
-    %CONTENT%
+    <ul>
+      <li>
+        <input type="checkbox" name="pimcore_nocache" type="checkbox">
+        <label for="pimcore_nocache">{{ pimcore_nocache }}</label>
+      </li>
+      <li>
+          <input type="checkbox" name="pimcore_debug_translations" type="checkbox">
+          <label for="pimcore_debug_translations">{{ pimcore_debug_translations }}</label>
+        </li>
+    </ul>
+    <input type="button" value="{{ apply }}" id="js-app-apply">
+    
+    <script src="app.js"></script>
   </body>
 </html>
