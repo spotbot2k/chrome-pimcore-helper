@@ -1,0 +1,14 @@
+{
+    "name": "Pimcore Helper",
+    "version": "0.0.1",
+    "description": "Simple use of pimcore magic parameters",
+    "background": {
+      "scripts": ["src/background.js"],
+      "persistent": false
+    },
+    "permissions": ["declarativeContent"],
+    "page_action": {
+        "default_popup": "src/popup.html"
+      },
+    "manifest_version": 2
+  }
